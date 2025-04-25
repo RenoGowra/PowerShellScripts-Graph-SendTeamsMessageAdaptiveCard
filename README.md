@@ -60,7 +60,7 @@ Each row logs the result of sending a message to a user.
 
 - Test the script thoroughly in a development or test environment before deploying in production.
 - Always validate that all modules are up-to-date and compatible with your PowerShell version.
-- Customize the Adaptive Card content freely — including additional prompts, text, links, or images.
+- Customize the Adaptive Card content freely by including additional prompts, text, links, or images at [https://adaptivecards.io/designer/]([url](https://adaptivecards.io/designer/))
 - It is **advisable to include a note or disclaimer** in the Adaptive Card if the service account is not monitored for replies.
 
 ## Disclaimer
