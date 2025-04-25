@@ -31,7 +31,7 @@ Install-Module ImportExcel -Force -AllowClobber
 
 ## Script Overview
 
-The script authenticates with Microsoft Graph, reads a list of users from an Excel file (`Users.xlsx`), and sends an Adaptive Card message to each user in a new 1:1 chat. It handles errors gracefully and logs the outcome (success or failure) to a CSV file.
+The script authenticates with Microsoft Graph, reads a list of users from an Excel file (`Users.xlsx`), and sends an Adaptive Card message to each user in a new 1:1 chat. It handles simple errors and logs the outcome (success or failure) to a CSV file. It uses the Microsoft Graph SDK with the Microsoft.Graph.Authentication and Microsoft.Graph.Teams modules (version 27.0.0)
 
 ## Features
 
